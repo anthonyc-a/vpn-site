@@ -11,7 +11,7 @@ export const Hero = styled.div`
   h1 {
     font-weight: 500;
     font-size: 3.5vw;
-    line-height: 1.4;
+    line-height: 1.35;
     letter-spacing: 0.4px;
 
     @media screen and (min-width: 1600px) {
@@ -84,7 +84,7 @@ export const Hero = styled.div`
       top: 30%;
       left: 50%;
       transform: translateX(-50%);
-      width: 90%;
+      width: 80%;
       height: 100%;
       background: #0d1025;
       opacity: 0.1;

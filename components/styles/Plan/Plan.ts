@@ -2,11 +2,6 @@ import styled from "styled-components";
 
 export const Plan = styled.div`
   margin-top: 200px;
-  background: linear-gradient(
-    180deg,
-    #f8f8f8 -45.04%,
-    rgba(248, 248, 248, 0) 88.56%
-  );
 
   .plan-header {
     width: fit-content;
