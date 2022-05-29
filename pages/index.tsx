@@ -2,6 +2,7 @@ import React from "react";
 import FeaturesComponent from "../components/Features/Features";
 import HeroComponent from "../components/Hero/Hero";
 import Layout from "../components/Layout/Layout";
+import PlanComponent from "../components/Plan/Plan";
 import { Container } from "../components/styles/Container/Container";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <Container>
         <HeroComponent />
         <FeaturesComponent />
+        <PlanComponent />
       </Container>
     </Layout>
   );

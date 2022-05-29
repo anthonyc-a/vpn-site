@@ -4,6 +4,10 @@ export const Hero = styled.div`
   position: relative;
   padding-top: 6rem;
 
+  @media screen and (min-width: 1600px) {
+      padding-top: 8rem;
+    }
+
   h1 {
     font-weight: 500;
     font-size: 3.5vw;
@@ -43,7 +47,7 @@ export const Hero = styled.div`
       transform: translateX(-50%);
       width: 90%;
       height: 100%;
-      background: rgba(245, 56, 56, 0.45);
+      background: rgba(245, 56, 56, 0.35);
       filter: blur(54px);
       border-radius: 10px;
       z-index: -1;
@@ -56,6 +60,10 @@ export const Hero = styled.div`
     svg {
       left: 0;
       transform: scale(1.1);
+
+      @media screen and (min-width: 1600px) {
+        transform: scale(1);
+      }
     }
   }
 
