@@ -4,8 +4,12 @@ export const Features = styled.div`
   margin-top: 150px;
   h2 {
     font-weight: 500;
-    font-size: 2vw;
+    font-size: 2.5vw;
     line-height: 1.35;
+
+    @media screen and (min-width: 1600px) {
+      font-size: 2vw;
+    }
   }
 
   p {
