@@ -34,23 +34,19 @@ export const Hero = styled.div`
     font-size: 16px;
     line-height: 25px;
     color: white;
-    transition: 0.3s ease-in-out;
 
     &:after {
       content: "hi";
       position: absolute;
       top: 50%;
-      left: 0;
+      left: 50%;
+      transform: translateX(-50%);
       width: 90%;
       height: 100%;
       background: rgba(245, 56, 56, 0.45);
       filter: blur(54px);
       border-radius: 10px;
       z-index: -1;
-    }
-
-    &:hover {
-      transform: translateY(-4px);
     }
   }
 
