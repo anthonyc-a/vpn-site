@@ -7,8 +7,12 @@ export const Hero = styled.div`
   h1 {
     font-weight: 500;
     font-size: 3.5vw;
-    line-height: 70px;
+    line-height: 1.3;
     letter-spacing: 0.4px;
+
+    @media screen and (min-width: 1600px) {
+      font-size: 3vw;
+    }
   }
 
   p {
