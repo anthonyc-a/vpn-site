@@ -34,6 +34,7 @@ export const Hero = styled.div`
     font-size: 16px;
     line-height: 25px;
     color: white;
+    transition: .3s ease;
 
     &:after {
       content: "hi";
@@ -46,7 +47,16 @@ export const Hero = styled.div`
       background: rgba(245, 56, 56, 0.45);
       filter: blur(54px);
       border-radius: 10px;
+      transition: .6s ease;
       z-index: -1;
+    }
+
+    &:hover {
+      transform: translateY(-4px);
+    }
+
+    &:hover::after {
+      opacity: 0;
     }
   }
 
