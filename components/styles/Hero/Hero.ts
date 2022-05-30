@@ -2,11 +2,16 @@ import styled from "styled-components";
 
 export const Hero = styled.div`
   position: relative;
-  padding-top: 6rem;
+  padding-top: calc(6rem + 111px);
 
   @media screen and (min-width: 1600px) {
-      padding-top: 8rem;
-    }
+    padding-top: calc(8rem + 111px);
+  }
+
+  .hero-info {
+    opacity: 0;
+    transform: translateY(10px);
+  }
 
   h1 {
     font-weight: 500;
@@ -15,7 +20,7 @@ export const Hero = styled.div`
     letter-spacing: 0.4px;
 
     @media screen and (min-width: 1600px) {
-      font-size: 3vw;
+      font-size: 2.5vw;
     }
   }
 
@@ -38,6 +43,11 @@ export const Hero = styled.div`
     font-size: 16px;
     line-height: 25px;
     color: white;
+    transition: 0.3s ease;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
 
     &:after {
       content: "hi";
@@ -63,6 +73,38 @@ export const Hero = styled.div`
 
       @media screen and (min-width: 1600px) {
         transform: scale(1);
+      }
+
+      .item {
+        animation: icon-anim 1s ease infinite;
+        transform: translateX(-6px);
+
+        @keyframes icon-anim {
+          0% {
+            transform: translateY(-6px);
+          }
+          50% {
+            transform: translateY(0);
+          }
+          100% {
+            transform: translateY(-6px);
+          }
+        }
+      }
+
+      .one {
+        animation-duration: 2.5s;
+      }
+      .two {
+        animation-duration: 4.5s;
+      }
+      .three {
+        animation-duration: 2.25s;
+      }
+
+      .item-group {
+        animation: icon-anim 2.5s ease infinite;
+        transform: translateX(-6px);
       }
     }
   }

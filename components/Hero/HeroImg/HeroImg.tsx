@@ -210,6 +210,7 @@ function Illustration() {
         rx="2.543"
       ></rect>
       <path
+        className="item three"
         fill="#FF7979"
         d="M371.373 27.778c1.54.889 1.54 3.11 0 4L352.1 42.905c-1.54.89-3.464-.222-3.464-2V18.65c0-1.777 1.924-2.888 3.464-2l19.273 11.128z"
       ></path>
@@ -229,6 +230,7 @@ function Illustration() {
         rx="3.798"
       ></rect>
       <path
+      className="item one"
         fill="url(#paint10_linear_1_518)"
         d="M77.986 39.833a4.555 4.555 0 014.556 4.555v13.666a4.555 4.555 0 01-4.556 4.556H55.21a4.555 4.555 0 01-4.555-4.556V44.388a4.555 4.555 0 014.555-4.555V28.444a11.388 11.388 0 1122.777 0v11.389zM66.598 55.777a4.555 4.555 0 100-9.111 4.555 4.555 0 000 9.11zm6.833-15.944V28.444a6.833 6.833 0 10-13.666 0v11.389H73.43z"
       ></path>
@@ -242,8 +244,6 @@ function Illustration() {
         height="52.659"
         x="70.572"
         y="134.896"
-        stroke="#E2E2E2"
-        strokeWidth="1.899"
         opacity="0.5"
         rx="3.798"
       ></rect>
@@ -261,7 +261,7 @@ function Illustration() {
           d="M88.452 145.073H120.756V177.377H88.452z"
         ></path>
       </mask>
-      <g mask="url(#mask1_1_518)">
+      <g mask="url(#mask1_1_518)" className="item two">
         <path
           fill="#FF7979"
           d="M80.637 131.939H124.964V186.60899999999998H80.637z"
@@ -283,6 +283,7 @@ function Illustration() {
         rx="3.798"
       ></rect>
       <rect
+        className="item-group"
         width="18.988"
         height="26.565"
         x="455.318"
@@ -291,6 +292,7 @@ function Illustration() {
         rx="2.58"
       ></rect>
       <rect
+        className="item-group"
         width="18.988"
         height="42.78"
         x="483.774"
@@ -299,6 +301,7 @@ function Illustration() {
         rx="2.58"
       ></rect>
       <rect
+        className="item-group"
         width="18.988"
         height="35.88"
         x="512.23"

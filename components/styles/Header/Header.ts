@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Header = styled.header`
-  position: relative;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -11,6 +11,7 @@ export const Header = styled.header`
   width: 100%;
   max-width: 1280px;
   background-color: white;
+  z-index: 1000;
 
   ul {
     display: flex;

@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Hero } from "../styles/Hero/Hero";
 import Illustration from "./HeroImg/HeroImg";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 const HeroComponent = () => {
+  gsap.registerPlugin(ScrollTrigger);
+
+  useEffect(() => {
+    gsap.to(".hero-info", {
+      opacity: 1,
+      duration: 0.6,
+      translateY: 0,
+    });
+  });
   return (
     <Hero className="container">
       <div className="hero-inner d-flex justify-content-between">
