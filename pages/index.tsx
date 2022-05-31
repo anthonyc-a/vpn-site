@@ -1,3 +1,4 @@
+import Head from "next/head";
 import React from "react";
 import CustomersComponent from "../components/Customers/Customers";
 import FeaturesComponent from "../components/Features/Features";
@@ -10,6 +11,9 @@ import { Container } from "../components/styles/Container/Container";
 const Home = () => {
   return (
     <Layout>
+      <Head>
+        <title>Lasles VPN | Free VPN Service</title>
+      </Head>
       <Container>
         <HeroComponent />
         <FeaturesComponent />

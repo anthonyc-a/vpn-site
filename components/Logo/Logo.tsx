@@ -3,7 +3,7 @@ import { Logo } from "../styles/Logo/Logo";
 
 const LogoComponent = () => {
   return (
-    <Logo href="/">
+    <Logo>
       <svg
         width="149"
         height="37"

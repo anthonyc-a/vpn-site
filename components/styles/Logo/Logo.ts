@@ -1,6 +1,4 @@
 import styled from "styled-components";
 
-export const Logo = styled.a`
-  svg {
-  }
+export const Logo = styled.div`
 `;

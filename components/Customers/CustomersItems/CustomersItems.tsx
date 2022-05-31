@@ -8,7 +8,10 @@ const CustomersItems = () => {
     var countList = [];
     for (var i = 0; i < 4; i++) {
       countList.push(
-        <div className={i === count ? "count-item active" : "count-item"}></div>
+        <div
+          className={i === count ? "count-item active" : "count-item"}
+          key={i}
+        ></div>
       );
     }
     return countList;

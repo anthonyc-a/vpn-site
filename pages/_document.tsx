@@ -33,7 +33,6 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <link rel="icon" href="/icon.svg" />
-          <title>Lasles VPN | Free VPN Service</title>
           <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
             rel="stylesheet"

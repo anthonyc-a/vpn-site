@@ -13,8 +13,15 @@ export const Header = styled.header`
   background-color: white;
   z-index: 1000;
 
+  @media screen and (min-width: 760px) {
+  }
+
   ul {
-    display: flex;
+    display: none;
+
+    @media screen and (min-width: 760px) {
+      display: flex;
+    }
 
     li {
       margin-right: 40px;
@@ -33,6 +40,10 @@ export const Header = styled.header`
   }
 
   .header-buttons {
+    display: none;
+    @media screen and (min-width: 760px) {
+      display: flex;
+    }
     button {
       padding: 13px 45px;
       background: transparent;

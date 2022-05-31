@@ -92,6 +92,11 @@ export const Plan = styled.div`
               color: white;
             }
           }
+
+          &.active {
+            background-color: #f53838;
+            color: white;
+          }
         }
       }
     }

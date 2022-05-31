@@ -12,6 +12,7 @@ const HeaderComponent = () => {
         <button>Sign In</button>
         <button>Sign Up</button>
       </div>
+      <div className="burger">menu</div>
     </Header>
   );
 };

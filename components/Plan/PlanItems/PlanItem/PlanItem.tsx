@@ -164,10 +164,7 @@ const PlanItem = () => {
               {item.price} {item.price != "Free" && <span>/ mo</span>}
             </h4>
             <button
-              style={{
-                background: item.price === "$12" ? "#F53838" : "",
-                color: item.price === "$12" ? "#FFFFFF" : "",
-              }}
+              className={item.price === "$12" ? "btn active" : "btn"}
             >
               Select
             </button>

@@ -15,9 +15,13 @@ export const Hero = styled.div`
 
   h1 {
     font-weight: 500;
-    font-size: 3.5vw;
+    font-size: 7.5vw;
     line-height: 1.35;
     letter-spacing: 0.4px;
+
+    @media screen and (min-width: 760px) {
+      font-size: 3.5vw;
+    }
 
     @media screen and (min-width: 1600px) {
       font-size: 2.5vw;
