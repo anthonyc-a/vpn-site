@@ -14,11 +14,11 @@ const SubscribeComponent = () => {
 
       scrollTrigger: {
         trigger: ".subscribe",
-        start: "center bottom",
+        start: "bottom bottom",
       },
     });
   });
-  
+
   return (
     <Subscribe className="subscribe">
       <div className="subscribe-header">
