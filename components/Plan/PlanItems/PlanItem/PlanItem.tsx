@@ -59,7 +59,7 @@ const PlanItem = () => {
   return (
     <>
       {planInfo.map((item, i) => (
-        <div className="plan-item">
+        <div className="plan-item" key={i}>
           <Icon />
           <h5>{item.name}</h5>
           <ul>

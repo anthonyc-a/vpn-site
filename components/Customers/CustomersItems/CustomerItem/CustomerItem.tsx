@@ -51,7 +51,7 @@ const CustomerItem: React.FC<BioProps> = ({ count }: any): JSX.Element => {
   return (
     <>
       {ReviewInfo.map((item, i) => (
-        <div className={count === i ? "item active" : "item"}>
+        <div className={count === i ? "item active" : "item"} key={i}>
           <div className="item-top">
             <div className="item-header">
               <div className="avatar">
