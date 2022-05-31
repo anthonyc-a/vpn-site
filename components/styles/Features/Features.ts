@@ -1,7 +1,12 @@
 import styled from "styled-components";
 
 export const Features = styled.div`
-  margin-top: 150px;
+  padding-top: 150px;
+
+  .info-inner {
+    opacity: 0;
+    transform: translateY(10px);
+  }
 
   p {
     margin-top: 20px;
@@ -14,9 +19,10 @@ export const Features = styled.div`
     margin-top: 20px;
     padding: 0;
     list-style-type: none;
+    
     li {
-        display: flex;
-        align-items: center;
+      display: flex;
+      align-items: center;
       margin-bottom: 15px;
       color: #4f5665;
       svg {

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Global = styled.div`
-  margin-top: 150px;
+  padding-top: 150px;
 
   .global-header {
     width: fit-content;

@@ -6,7 +6,6 @@ import HeroComponent from "../components/Hero/Hero";
 import Layout from "../components/Layout/Layout";
 import PlanComponent from "../components/Plan/Plan";
 import { Container } from "../components/styles/Container/Container";
-import SubscribeComponent from "../components/Subscribe/Subscribe";
 
 const Home = () => {
   return (
@@ -17,7 +16,6 @@ const Home = () => {
         <PlanComponent />
         <GlobalComponent />
         <CustomersComponent />
-        <SubscribeComponent />
       </Container>
     </Layout>
   );

@@ -4,7 +4,7 @@ import CustomersItems from "./CustomersItems/CustomersItems";
 
 const CustomerComponent = () => {
   return (
-    <Customers>
+    <Customers id="testimonials">
       <div className="header">
         <h2>
           Trusted by Thousands of <br /> Happy Customer

@@ -45,12 +45,8 @@ export const Hero = styled.div`
     color: white;
     transition: 0.3s ease;
 
-    &:hover {
-      filter: brightness(0.9);
-    }
-
     &:after {
-      content: "hi";
+      content: "";
       position: absolute;
       top: 50%;
       left: 50%;

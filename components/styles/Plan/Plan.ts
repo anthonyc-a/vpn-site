@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Plan = styled.div`
-  margin-top: 200px;
+  padding-top: 200px;
 
   .plan-header {
     width: fit-content;
@@ -31,6 +31,8 @@ export const Plan = styled.div`
       border: 2px solid #dddddd;
       background-color: white;
       border-radius: 10px;
+      opacity: 0;
+      transform: translateY(10px);
 
       &:nth-last-child(1) {
         margin-right: 0;
@@ -64,7 +66,7 @@ export const Plan = styled.div`
         bottom: 50px;
 
         span {
-            font-weight: 300;
+          font-weight: 300;
         }
 
         button {
@@ -82,11 +84,11 @@ export const Plan = styled.div`
 
           &:nth-last-child(1) {
             color: #f53855;
-            border: 2px solid #F53838;
+            border: 2px solid #f53838;
             transition: all 0.3s ease;
 
             &:hover {
-              background: #F53838;
+              background: #f53838;
               color: white;
             }
           }

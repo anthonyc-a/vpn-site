@@ -4,7 +4,7 @@ import PlanItems from "./PlanItems/PlanItems";
 
 const PlanComponent = () => {
   return (
-    <Plan>
+    <Plan id="pricing">
       <div className="plan-header">
         <h2>Choose Your Plan</h2>
         <p>

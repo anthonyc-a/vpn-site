@@ -15,7 +15,7 @@ const HeroComponent = () => {
     });
   });
   return (
-    <Hero className="container">
+    <Hero className="container" id="about">
       <div className="hero-inner d-flex justify-content-between">
         <div className="hero-info 6-col">
           <h1>

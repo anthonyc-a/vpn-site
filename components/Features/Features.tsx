@@ -1,10 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Features } from "../styles/Features/Features";
 import Icon from "./FeaturesImg/FeaturesImg";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 const FeaturesComponent = () => {
+  gsap.registerPlugin(ScrollTrigger);
+
+  useEffect(() => {
+    gsap.to(".info-inner", {
+      opacity: 1,
+      duration: 0.6,
+      translateY: 0,
+      scrollTrigger: {
+        trigger: ".info-inner",
+        start: "center bottom",
+      },
+    });
+  });
+
   return (
-    <Features className="container d-flex align-items-center justify-content-between">
+    <Features
+      className="container d-flex align-items-center justify-content-between"
+      id="features"
+    >
       <div className="features-img col-6">
         <Icon />
       </div>

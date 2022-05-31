@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Icon from "./PlanItemImg/PlanItemImg";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 const planInfo = [
   {
@@ -38,6 +40,22 @@ const planInfo = [
 ];
 
 const PlanItem = () => {
+  gsap.registerPlugin(ScrollTrigger);
+
+  useEffect(() => {
+    gsap.to(".plan-item", {
+      opacity: 1,
+      duration: 0.6,
+      translateY: 0,
+      stagger: 0.3,
+
+      scrollTrigger: {
+        trigger: ".plan-item",
+        start: "center bottom",
+      },
+    });
+  });
+
   return (
     <>
       {planInfo.map((item, i) => (
