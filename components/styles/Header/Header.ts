@@ -68,4 +68,10 @@ export const Header = styled.header`
       }
     }
   }
+
+  .burger {
+    @media screen and (min-width: 760px) {
+      display: none;
+    }
+  }
 `;

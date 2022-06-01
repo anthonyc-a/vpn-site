@@ -69,11 +69,6 @@ export const Hero = styled.div`
 
     svg {
       left: 0;
-      transform: scale(1.1);
-
-      @media screen and (min-width: 1600px) {
-        transform: scale(1);
-      }
 
       .item {
         animation: icon-anim 1s ease infinite;

@@ -28,8 +28,7 @@ const CustomersItems = () => {
       <div className="controls">
         <div className="counter">{countLoop()}</div>
         <div className="ctrl">
-          <a
-            href="#testimonials"
+          <div
             className="arrow back"
             onClick={() => {
               count >= 1 ? setCount(count - 1) : null;
@@ -47,9 +46,8 @@ const CustomersItems = () => {
                 fill="#F53838"
               />
             </svg>
-          </a>
-          <a
-            href="#testimonials"
+          </div>
+          <div
             className="arrow forw"
             onClick={() => {
               count <= 2 ? setCount(count + 1) : null;
@@ -67,7 +65,7 @@ const CustomersItems = () => {
                 fill="white"
               />
             </svg>
-          </a>
+          </div>
         </div>
       </div>
     </div>

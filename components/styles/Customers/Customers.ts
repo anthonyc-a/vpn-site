@@ -136,6 +136,7 @@ export const Customers = styled.div`
           border: 2px solid #f53838;
           border-radius: 100%;
           cursor: pointer;
+          user-select: none;
 
           &:nth-last-child(1) {
             margin-right: 0;
