@@ -25,7 +25,7 @@ const SubscribeComponent = () => {
         <h2>
           Subscribe Now for <br /> Get Special Features!
         </h2>
-        <p>Let's subscribe with us and find the fun.</p>
+        <p>Let&apos;s subscribe with us and find the fun.</p>
       </div>
       <button>Subscribe Now</button>
     </Subscribe>
