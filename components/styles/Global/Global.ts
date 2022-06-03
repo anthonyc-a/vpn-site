@@ -15,6 +15,8 @@ export const Global = styled.div`
   }
   svg {
     display: block;
+    width: 100%;
+    height: fit-content;
     margin: 80px auto 0 auto;
   }
 

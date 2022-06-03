@@ -10,6 +10,7 @@ export const Features = styled.div`
   .features-img {
     svg {
       width: 100%;
+      height: fit-content;
     }
   }
 

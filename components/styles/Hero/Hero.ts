@@ -14,7 +14,7 @@ export const Hero = styled.div`
 
   .hero-inner {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 
     @media screen and (min-width: 760px) {
       flex-direction: row;
@@ -29,7 +29,7 @@ export const Hero = styled.div`
 
   h1 {
     font-weight: 500;
-    font-size: 10vw;
+    font-size: 9.5vw;
     line-height: 1.35;
     letter-spacing: 0.4px;
 
@@ -80,10 +80,12 @@ export const Hero = styled.div`
 
   .hero-img {
     position: relative;
+    margin-bottom: 50px;
 
     svg {
       left: 0;
       width: 100%;
+      height: fit-content;
 
       .item {
         animation: icon-anim 1s ease infinite;
