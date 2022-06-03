@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Subscribe = styled.div`
   position: absolute;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   top: -165px;
@@ -17,6 +18,10 @@ export const Subscribe = styled.div`
   background-color: white;
   z-index: 1;
   opacity: 0;
+
+  @media screen and (min-width: 760px) {
+    flex-direction: row;
+  }
 
   .subscribe-header {
     h2 {

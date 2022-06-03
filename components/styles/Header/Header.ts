@@ -14,7 +14,7 @@ export const Header = styled.header`
   z-index: 1000;
 
   @media screen and (min-width: 760px) {
-    padding: 2rem 0;
+    padding: 2rem 40px;
   }
 
   ul {

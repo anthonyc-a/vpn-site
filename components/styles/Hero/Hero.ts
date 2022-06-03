@@ -127,8 +127,12 @@ export const Hero = styled.div`
     margin: 104px auto 0 auto;
     width: 100%;
     max-width: 1140px;
-    padding: 66px 90px;
     background-color: white;
+
+    @media screen and (min-width: 760px) {
+      padding: 66px 90px;
+
+    }
 
     &:after {
       content: "";
@@ -147,6 +151,9 @@ export const Hero = styled.div`
 
     .stat-item {
       display: flex;
+      width: 33%;
+      white-space: nowrap;
+      transform: scale(0.7);
 
       h3 {
         font-size: 25px;

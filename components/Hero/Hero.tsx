@@ -27,7 +27,7 @@ const HeroComponent = () => {
           </p>
           <button>Get Started</button>
         </div>
-        <div className="hero-img 6-col">
+        <div className="hero-img">
           <Illustration />
         </div>
       </div>
