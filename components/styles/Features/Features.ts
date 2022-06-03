@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Features = styled.div`
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   padding-top: 150px;
