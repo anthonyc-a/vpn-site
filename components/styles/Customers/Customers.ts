@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
 export const Customers = styled.div`
-  padding-top: 150px;
+  padding-top: 100px;
+
+  @media screen and (min-width: 760px) {
+    padding-top: 150px;
+  }
 
   .header {
     width: fit-content;
@@ -33,12 +37,16 @@ export const Customers = styled.div`
         transition: 0.3s ease;
 
         .item {
-          width: 394px;
-          margin-right: 48px;
+          width: calc(100vw - 40px);
           padding: 30px;
           border-radius: 10px;
           border: 2px solid #dddddd;
           transition: 0.3s ease;
+
+          @media screen and (min-width: 760px) {
+            width: 394px;
+            margin-right: 48px;
+          }
 
           &.active {
             border-color: #f53838;

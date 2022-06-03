@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
 export const Global = styled.div`
-  padding-top: 150px;
+  padding-top: 80px;
+
+  @media screen and (min-width: 760px) {
+    padding-top: 150px;
+  }
 
   .global-header {
     width: fit-content;
@@ -16,17 +20,29 @@ export const Global = styled.div`
   svg {
     display: block;
     width: 100%;
-    height: fit-content;
+    height: 200px;
     margin: 80px auto 0 auto;
+
+    @media screen and (min-width: 760px) {
+      width: unset;
+      height: unset;
+    }
   }
 
   .brands {
     display: flex;
-    margin-top: 80px;
+    align-items: center;
+    margin-top: 50px;
+
+    @media screen and (min-width: 760px) {
+      margin-top: 80px;
+    }
 
     svg {
+      height: fit-content;
       filter: grayscale(1);
       opacity: 0.25;
+      margin: 0;
       .st0 {
         fill: #ff4500;
       }

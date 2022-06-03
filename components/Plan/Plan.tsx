@@ -8,8 +8,8 @@ const PlanComponent = () => {
       <div className="plan-header">
         <h2>Choose Your Plan</h2>
         <p>
-          Let&apos;s choose the package that is best for you and explore it happily
-          and <br /> cheerfully.
+          Let&apos;s choose the package that is best for you and explore it
+          happily and cheerfully.
         </p>
       </div>
       <PlanItems />

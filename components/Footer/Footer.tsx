@@ -68,7 +68,7 @@ const FooterComponent = () => {
             ©2020Lasles<strong>VPN</strong>
           </span>
         </div>
-        <div className="col-2">
+        <div className="footer-col col-2">
           <h6>Product</h6>
           <ul>
             <li>Download</li>
@@ -79,7 +79,7 @@ const FooterComponent = () => {
             <li>Blog</li>
           </ul>
         </div>
-        <div className="col-2">
+        <div className="footer-col col-2">
           <h6>Engage</h6>
           <ul>
             <li>LaslesVPN</li>
@@ -90,7 +90,7 @@ const FooterComponent = () => {
             <li>Terms of Service</li>
           </ul>
         </div>
-        <div className="col-2">
+        <div className="footer-col col-2">
           <h6>Earn Money</h6>
           <ul>
             <li>Affiliate</li>

@@ -15,9 +15,9 @@ const HeroComponent = () => {
     });
   });
   return (
-    <Hero className="container" id="about">
-      <div className="hero-inner container">
-        <div className="hero-info col col-md-6 ">
+    <Hero className="" id="about">
+      <div className="hero-inner">
+        <div className="hero-info">
           <h1>
             Want anything to be easy with <strong>LaslesVPN.</strong>
           </h1>

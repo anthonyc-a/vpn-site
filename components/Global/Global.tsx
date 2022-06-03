@@ -10,7 +10,7 @@ const GlobalComponent = () => {
         <h2>Huge Global Network of Fast VPN</h2>
         <p>
           See <strong>LaslesVPN</strong> everywhere to make it easier for you
-          when you move <br /> locations..
+          when you move locations..
         </p>
       </div>
       <Icon />

@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
 export const Plan = styled.div`
-  padding-top: 200px;
+  padding-top: 0px;
+
+  @media screen and (min-width: 760px) {
+    padding-top: 200px;
+  }
 
   .plan-header {
     width: fit-content;

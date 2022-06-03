@@ -17,6 +17,10 @@ export const Header = styled.header`
     padding: 2rem 40px;
   }
 
+  @media screen and (min-width: 1280px) {
+    padding: 2rem 0;
+  }
+
   ul {
     display: none;
 
@@ -71,8 +75,20 @@ export const Header = styled.header`
   }
 
   .burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 32px;
+    height: 12px;
+
     @media screen and (min-width: 760px) {
       display: none;
+    }
+
+    .line {
+      width: 100%;
+      height: 3px;
+      background: #0b132a;
     }
   }
 `;

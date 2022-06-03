@@ -6,12 +6,9 @@ const CustomerComponent = () => {
   return (
     <Customers id="testimonials">
       <div className="header">
-        <h2>
-          Trusted by Thousands of <br /> Happy Customer
-        </h2>
+        <h2>Trusted by Thousands of Happy Customer</h2>
         <p>
           These are the stories of our customers who have joined us with great{" "}
-          <br />
           pleasure when using this crazy feature.
         </p>
       </div>

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Hero = styled.div`
   position: relative;
-  padding-top: calc(4rem + 111px);
+  padding-top: calc(5rem + 111px);
 
   @media screen and (min-width: 760px) {
     padding-top: calc(6rem + 111px);
@@ -25,6 +25,14 @@ export const Hero = styled.div`
   .hero-info {
     opacity: 0;
     transform: translateY(10px);
+
+    @media screen and (min-width: 760px) {
+      width: 45%;
+    }
+
+    @media screen and (min-width: 1600px) {
+      width: 50%;
+    }
   }
 
   h1 {
@@ -66,12 +74,12 @@ export const Hero = styled.div`
     &:after {
       content: "";
       position: absolute;
-      top: 50%;
+      top: 40%;
       left: 50%;
       transform: translateX(-50%);
       width: 90%;
       height: 100%;
-      background: rgba(245, 56, 56, 0.35);
+      background: rgba(245, 56, 56, 0.15);
       filter: blur(54px);
       border-radius: 10px;
       z-index: -1;
@@ -80,7 +88,7 @@ export const Hero = styled.div`
 
   .hero-img {
     position: relative;
-    margin-top: 50px;
+    margin-top: 40px;
 
     @media screen and (min-width: 760px) {
       margin: 0;
@@ -89,7 +97,6 @@ export const Hero = styled.div`
     svg {
       left: 0;
       width: 100%;
-      height: fit-content;
 
       .item {
         animation: icon-anim 1s ease infinite;
@@ -130,12 +137,13 @@ export const Hero = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 104px auto 0 auto;
+    margin: 20px auto 0 auto;
     width: 100%;
     max-width: 1140px;
     background-color: white;
 
     @media screen and (min-width: 760px) {
+      margin: 104px auto 0 auto;
       padding: 66px 90px;
     }
 
@@ -156,9 +164,14 @@ export const Hero = styled.div`
 
     .stat-item {
       display: flex;
-      width: 33%;
       white-space: nowrap;
+      width: 33%;
       transform: scale(0.7);
+
+      @media screen and (min-width: 760px) {
+        transform: unset;
+        width: unset;
+      }
 
       h3 {
         font-size: 25px;

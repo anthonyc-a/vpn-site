@@ -2,10 +2,15 @@ import styled from "styled-components";
 
 export const Features = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
   justify-content: space-between;
-  padding-top: 150px;
+  padding-top: 100px;
+
+  @media screen and (min-width: 760px) {
+    padding-top: 150px;
+    flex-direction: row;
+  }
 
   .features-img {
     margin-bottom: 50px;
@@ -17,10 +22,21 @@ export const Features = styled.div`
     svg {
       width: 100%;
       height: fit-content;
+
+      @media screen and (min-width: 760px) {
+        width: unset;
+        height: unset;
+      }
     }
   }
 
   .features-info {
+    text-align: center;
+
+    @media screen and (min-width: 760px) {
+      width: 45%;
+      text-align: unset;
+    }
   }
 
   .info-inner {
@@ -33,6 +49,10 @@ export const Features = styled.div`
     font-size: 16px;
     line-height: 30px;
     color: #4f5665;
+
+    @media screen and (min-width: 760px) {
+      width: 70%;
+    }
   }
 
   ul {
@@ -43,8 +63,14 @@ export const Features = styled.div`
     li {
       display: flex;
       align-items: center;
+      justify-content: center;
       margin-bottom: 15px;
       color: #4f5665;
+
+      @media screen and (min-width: 760px) {
+        justify-content: unset;
+      }
+
       svg {
         margin-right: 12px;
       }

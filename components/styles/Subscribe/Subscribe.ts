@@ -5,15 +5,14 @@ export const Subscribe = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  top: -165px;
+  top: -180px;
   left: 50%;
   transform: translateX(-50%) translateY(10px);
-  width: 100%;
+  width: calc(100% - 40px);
   max-width: 1140px;
-  height: 220px;
+  height: fit-content;
   margin: 65px auto 0 auto;
-  padding: 0 70px;
+  padding: 0 20px 20px 20px;
   border-radius: 10px;
   background-color: white;
   z-index: 1;
@@ -21,11 +20,19 @@ export const Subscribe = styled.div`
 
   @media screen and (min-width: 760px) {
     flex-direction: row;
+    align-items: center;
+    top: -165px;
+    height: 220px;
+    padding: 0 70px;
   }
 
   .subscribe-header {
     h2 {
       line-height: 45px;
+
+      @media screen and (min-width: 760px) {
+        width: 100%;
+      }
     }
     p {
       margin-top: 20px;
@@ -53,7 +60,7 @@ export const Subscribe = styled.div`
       transform: translateX(-50%);
       width: 90%;
       height: 100%;
-      background: rgba(245, 56, 56, 0.35);
+      background: rgba(245, 56, 56, 0.25);
       filter: blur(54px);
       border-radius: 10px;
       z-index: -1;

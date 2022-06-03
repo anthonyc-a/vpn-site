@@ -3,12 +3,24 @@ import styled from "styled-components";
 export const Footer = styled.footer`
   position: relative;
   width: 100%;
-  height: 560px;
-  margin-top: 180px;
-  padding: 180px 150px 100px 150px;
+  height: 520px;
+  margin-top: 220px;
+  padding: 260px 0px 0px 0px;
   background-color: #eee;
 
+  @media screen and (min-width: 760px) {
+    height: 560px;
+    margin-top: 180px;
+    padding: 180px 150px 100px 150px;
+  }
+
   .footer-inner {
+    flex-direction: column;
+
+    @media screen and (min-width: 760px) {
+      flex-direction: row;
+    }
+
     p {
       margin-top: 24px;
     }
@@ -47,6 +59,14 @@ export const Footer = styled.footer`
       margin-top: 30px;
       line-height: 30px;
       color: #afb5c0;
+    }
+
+    .footer-col {
+      display: none;
+
+      @media screen and (min-width: 760px) {
+        display: block;
+      }
     }
 
     h6 {

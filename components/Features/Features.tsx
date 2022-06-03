@@ -21,13 +21,13 @@ const FeaturesComponent = () => {
 
   return (
     <Features
-      className="container"
+      className=""
       id="features"
     >
       <div className="features-img">
         <Icon />
       </div>
-      <div className="features-info d-flex flex-column align-items-center">
+      <div className="features-info">
         <div className="info-inner">
           <h2>
             We Provide Many <br /> Features You Can Use
