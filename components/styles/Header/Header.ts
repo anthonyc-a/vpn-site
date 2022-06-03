@@ -7,13 +7,14 @@ export const Header = styled.header`
   justify-content: space-between;
   left: 50%;
   transform: translateX(-50%);
-  padding: 2rem 0;
+  padding: 2rem 20px;
   width: 100%;
   max-width: 1280px;
   background-color: white;
   z-index: 1000;
 
   @media screen and (min-width: 760px) {
+    padding: 2rem 0;
   }
 
   ul {

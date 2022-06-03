@@ -8,6 +8,16 @@ export const Hero = styled.div`
     padding-top: calc(8rem + 111px);
   }
 
+  .hero-inner {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: 760px) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
   .hero-info {
     opacity: 0;
     transform: translateY(10px);
@@ -15,7 +25,7 @@ export const Hero = styled.div`
 
   h1 {
     font-weight: 500;
-    font-size: 7.5vw;
+    font-size: 10vw;
     line-height: 1.35;
     letter-spacing: 0.4px;
 
@@ -69,6 +79,7 @@ export const Hero = styled.div`
 
     svg {
       left: 0;
+      width: 100%;
 
       .item {
         animation: icon-anim 1s ease infinite;

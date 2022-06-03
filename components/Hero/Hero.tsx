@@ -16,15 +16,14 @@ const HeroComponent = () => {
   });
   return (
     <Hero className="container" id="about">
-      <div className="hero-inner container d-flex justify-content-between">
+      <div className="hero-inner container">
         <div className="hero-info col col-md-6 ">
           <h1>
-            Want anything to be <br /> easy with <strong>LaslesVPN.</strong>
+            Want anything to be easy with <strong>LaslesVPN.</strong>
           </h1>
           <p>
             Provide a network for all your needs with ease and fun using{" "}
-            <strong>LaslesVPN</strong> <br />
-            discover interesting features from us.
+            <strong>LaslesVPN</strong> discover interesting features from us.
           </p>
           <button>Get Started</button>
         </div>

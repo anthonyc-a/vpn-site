@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const ReviewInfo = [
   {
@@ -55,7 +56,7 @@ const CustomerItem: React.FC<BioProps> = ({ count }: any): JSX.Element => {
           <div className="item-top">
             <div className="item-header">
               <div className="avatar">
-                <img src={item.img} alt="" />
+                <Image src={item.img} alt={item.name} width={50} height={50} />
               </div>
               <div className="item-info">
                 <h5>{item.name}</h5>
