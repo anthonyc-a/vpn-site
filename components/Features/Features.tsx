@@ -33,7 +33,7 @@ const FeaturesComponent = () => {
             We Provide Many <br /> Features You Can Use
           </h2>
           <p>
-            You can explore the features that we provide with fun and <br />{" "}
+            You can explore the features that we provide with fun and
             have their own functions each feature.
           </p>
           <ul>
