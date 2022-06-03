@@ -2,7 +2,11 @@ import styled from "styled-components";
 
 export const Hero = styled.div`
   position: relative;
-  padding-top: calc(6rem + 111px);
+  padding-top: calc(4rem + 111px);
+
+  @media screen and (min-width: 760px) {
+    padding-top: calc(6rem + 111px);
+  }
 
   @media screen and (min-width: 1600px) {
     padding-top: calc(8rem + 111px);
