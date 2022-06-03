@@ -16,8 +16,13 @@ export const Plan = styled.div`
 
   .plan-items {
     display: flex;
+    flex-direction: column;
     margin: 60px auto 0 auto;
     width: fit-content;
+
+    @media screen and (min-width: 760px) {
+    flex-direction: row;
+  }
 
     .plan-item {
       position: relative;

@@ -3,7 +3,7 @@ import PlanItem from "./PlanItem/PlanItem";
 
 const PlanItems = () => {
   return (
-    <div className="plan-items d-flex">
+    <div className="plan-items">
         <PlanItem />
     </div>
   );
