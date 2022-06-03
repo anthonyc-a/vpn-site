@@ -8,6 +8,12 @@ export const Features = styled.div`
   padding-top: 150px;
 
   .features-img {
+    margin-bottom: 50px;
+
+    @media screen and (min-width: 760px) {
+      margin: 0;
+    }
+
     svg {
       width: 100%;
       height: fit-content;

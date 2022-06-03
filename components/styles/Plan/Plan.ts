@@ -21,8 +21,8 @@ export const Plan = styled.div`
     width: fit-content;
 
     @media screen and (min-width: 760px) {
-    flex-direction: row;
-  }
+      flex-direction: row;
+    }
 
     .plan-item {
       position: relative;
@@ -31,13 +31,18 @@ export const Plan = styled.div`
       align-items: center;
       width: 330px;
       height: 760px;
+      margin-bottom: 50px;
       padding: 80px 0 50px 0;
-      margin-right: 50px;
       border: 2px solid #dddddd;
       background-color: white;
       border-radius: 10px;
       opacity: 0;
       transform: translateY(10px);
+
+      @media screen and (min-width: 760px) {
+        margin-right: 50px;
+        margin-bottom: 0;
+      }
 
       &:nth-last-child(1) {
         margin-right: 0;

@@ -14,7 +14,7 @@ export const Hero = styled.div`
 
   .hero-inner {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
 
     @media screen and (min-width: 760px) {
       flex-direction: row;
@@ -29,7 +29,7 @@ export const Hero = styled.div`
 
   h1 {
     font-weight: 500;
-    font-size: 9.5vw;
+    font-size: 10vw;
     line-height: 1.35;
     letter-spacing: 0.4px;
 
@@ -80,7 +80,11 @@ export const Hero = styled.div`
 
   .hero-img {
     position: relative;
-    margin-bottom: 50px;
+    margin-top: 50px;
+
+    @media screen and (min-width: 760px) {
+      margin: 0;
+    }
 
     svg {
       left: 0;
@@ -133,7 +137,6 @@ export const Hero = styled.div`
 
     @media screen and (min-width: 760px) {
       padding: 66px 90px;
-
     }
 
     &:after {
