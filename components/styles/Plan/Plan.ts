@@ -30,7 +30,7 @@ export const Plan = styled.div`
       flex-direction: column;
       align-items: center;
       width: 330px;
-      height: 760px;
+      height: 720px;
       margin-bottom: 50px;
       padding: 80px 0 50px 0;
       border: 2px solid #dddddd;
@@ -40,6 +40,7 @@ export const Plan = styled.div`
       transform: translateY(10px);
 
       @media screen and (min-width: 760px) {
+        height: 760px;
         margin-right: 50px;
         margin-bottom: 0;
       }
